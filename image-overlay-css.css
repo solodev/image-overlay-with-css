@@ -1,0 +1,70 @@
+/* Background Styling */
+.white-clouds {
+  background: url(https://raw.githubusercontent.com/solodev/image-overlay-with-css/master/white-clouds.png);
+  background-position: bottom;
+  background-color: #e1f4fd;
+  border-bottom: 1px solid #e4e3e3;
+  @include media-breakpoint-down(xs){ 
+    text-align: center;
+  }
+  .h-450p {
+    @include media-breakpoint-down(sm){
+      height: auto;
+      padding: 40px 15px;
+    }
+  }
+}
+.bg-image-no-repeat {
+    background-repeat: no-repeat!important;
+}
+
+/* Position Styling */
+.pos-a {
+    position: absolute!important;
+}
+.pos-r {
+    position: relative!important;
+}
+
+.h-450p {
+    height: 450px!important;
+}
+.z-index-1 {
+    z-index: 1;
+}
+
+/* Font Styling */
+.text-black {
+    color: #000!important;
+}
+.text-bold {
+    font-weight: 700;
+}
+.text-blue {
+    color: #1aafff!important;
+}
+.btn {
+    text-transform: uppercase;
+}
+.pink {
+    background-color: #f7008a;
+    border-color: #f7008a;
+    color: #fff;
+}
+/* Spacing Styling */
+.margin-top-s {
+    margin-top: 1rem!important;
+}
+.bottom-0 {
+    bottom: 0;
+}
+.right-0 {
+    right: 0;
+}
+
+/* Media Queries */
+@media (min-width: 1200px){
+  .container {
+    max-width: 1370px;
+  }
+}
